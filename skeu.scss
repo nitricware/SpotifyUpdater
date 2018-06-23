@@ -1,0 +1,109 @@
+$spotifyGreenDarker: #15843c;
+$spotifyGreen: #1DB954;
+$spotifyGreenLighter: #38e073;
+$spotifyGreenLightest: #7beaa2;
+
+$spotifyBlack: #191414;
+$spotifyBlackLighter: #3a2f2f;
+
+$darkText: #454545;
+$blackText: #090909;
+
+$defaultFont: 'Abel', sans-serif;
+$bigButtonFont: 'Quicksand', sans-serif;
+$brandFont: 'Dr Sugiyama', cursive;
+$tapeLabelFont: 'Permanent Marker', cursive;
+
+.spotifyLogin {
+  border-radius: 4px;
+  border: 1px solid $spotifyGreenDarker;
+  background: linear-gradient($spotifyGreenLighter, $spotifyGreen);
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  box-shadow: 0px 0px 3px 2px #cccccc;
+
+  text-align: center;
+  
+  font-size: 1.5em;
+  font-family: $bigButtonFont;
+
+  color: $blackText;
+
+  text-shadow: 1px 1px #cccccc;
+
+  cursor: pointer;
+
+  &:hover{
+    background: linear-gradient($spotifyGreenLightest, $spotifyGreenLighter);
+  }
+
+  &:active{
+    background: linear-gradient($spotifyGreen, $spotifyGreenLighter);
+    box-shadow: inset 0px 0px 3px 0px #666666;
+    font-size: 1.495em;
+  }
+}
+
+.brandName {
+  font-family: $brandFont;
+  font-size: 5em;
+
+  color: $darkText;
+
+  text-align: center;
+
+  text-shadow: -1px -1px #000000;
+}
+
+.introductory {
+  font-family: $defaultFont;
+  font-size: 1.2em;
+
+  text-align: center;
+}
+
+.tapeBinder{
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  .tape { 
+    margin-top: -13px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid #111111;
+
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    box-shadow: 0px 0px 3px 2px #cccccc;
+
+    background: url('casette.png');
+
+    .label {
+      
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+
+      padding-top: 6px;
+      padding-left: 4px;
+      padding-right: 4px;
+      padding-bottom: 4px;
+
+      box-shadow: inset 0px 2px 0px 2px #f9f3dd;
+
+      font-family: $tapeLabelFont;
+      font-size: 1.1em;
+
+      text-align: center;
+
+      min-height: 40px;
+
+      background: url('lined_paper.png');
+    }
+  }
+}
