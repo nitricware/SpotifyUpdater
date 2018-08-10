@@ -82,7 +82,7 @@ $tapeLabelFont: 'Permanent Marker', cursive;
 
     box-shadow: 0px 0px 3px 2px #cccccc;
 
-    background: url('casette.png');
+    background: url('src/casette.png');
 
     .label {
       
@@ -103,7 +103,7 @@ $tapeLabelFont: 'Permanent Marker', cursive;
 
       min-height: 40px;
 
-      background: url('lined_paper.png');
+      background: url('src/lined_paper.png');
     }
   }
 }
