@@ -30,6 +30,7 @@ There are several steps to accomplish before, the script can run.
 
 ## History
 10.5.2018 - Development started
+10.8.2018 - Dockerized project
 
 ## Changelog
 1.0 initial release
